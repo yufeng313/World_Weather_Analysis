@@ -13,6 +13,7 @@ In this analysis, I’m going to collect weather data from over 600 cities aroun
 3. Choose four cities to create a travel itinerary, use the Google Maps Directions API, create a travel route between the four cities as well as a marker layer map.
 ![6 choose 4 cities](https://user-images.githubusercontent.com/107179765/179388692-eb9b3f54-d739-4998-8076-b2d0b3fae5e9.png)
 ![7 WeatherPy_travel_map](https://user-images.githubusercontent.com/107179765/179388695-88ec7e1d-867b-4520-8ceb-6df8eb97ee20.png)<br/>
+
 This is how PlanMyTrip use the data to recommend ideal hotels based on clients' weather preferences, and create a travel itinerary for our clients.
 ## Summary
 As we can see, with the random list of latitudes and longitudes we can obtain over 600 cities, and request the current weather data for eavh city by using OpenWeatherMap API. Then, we can create a map or make a travel itinerary with pop-up markers that can display information on specific cities based on a customer's travel preferences. Thus, it's very usful to retrieve data using APIs.
